@@ -219,7 +219,25 @@ export function getHostInfo() {
     version: '0.1.0',
     type: 'theme',
     author: '橙虚得猿',
-    description: '墨韵 · 中国水墨画风格主题 · 8 种语言支持',
-    themes: PRESET_THEMES.map((t) => ({ id: t.id, name: t.name, description: t.description })),
+    description: '墨韵 · 中国水墨画风格主题插件：5 套水墨主题、自定义壁纸、模糊控制、粒子效果、8 种语言（中/英/日/韩/西/法/德/俄），把 DeepSeek Harness 变成一幅流动的水墨画卷。',
+    features: [
+      '5 套原创水墨主题（远山孤松、烟雨江南、竹影清风、梅傲霜雪、山水留白）',
+      '自定义壁纸上传 + 模糊透明度控制',
+      '粒子飘落效果（墨点纷飞）',
+      '8 种语言国际化支持',
+      '纯原生 token 系统，不修改 DSH 安装包',
+    ],
+    keywords: ['dsh-plugin', 'dsh-theme', '水墨', '中国风', 'ink-painting', 'chinese', 'i18n', 'multi-language'],
+    homepage: 'https://github.com/RevolutionLA/dsh-web-theme',
+    repository: 'https://github.com/RevolutionLA/dsh-web-theme',
+    bugs: 'https://github.com/RevolutionLA/dsh-web-theme/issues',
+    screenshots: [
+      '/api/dsh-web-theme/themes/01.png',
+      '/api/dsh-web-theme/themes/02.png',
+      '/api/dsh-web-theme/themes/03.png',
+      '/api/dsh-web-theme/themes/04.png',
+      '/api/dsh-web-theme/themes/05.png',
+    ],
+    themes: PRESET_THEMES.map((t) => ({ id: t.id, name: t.name, description: t.description, color: t.color, accent: t.accent, icon: t.icon })),
   };
 }

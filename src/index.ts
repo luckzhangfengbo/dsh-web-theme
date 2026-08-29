@@ -1,8 +1,13 @@
 import * as host from './host/index.js';
 
 export const name = 'dsh-web-theme';
+export const inject = ['webServer'];
 
-export function apply(ctx: any, config?: any) {
+export function getHostInfo() {
+  return host.getHostInfo();
+}
+
+export function apply(ctx: any) {
   console.log('[墨韵主题] 宿主端已激活');
 
   const resolved = {
@@ -14,7 +19,7 @@ export function apply(ctx: any, config?: any) {
     autoActivate: true,
   };
 
-  ctx.inject(['webServer', 'loader'], (hostCtx: any) => {
+  ctx.inject(['webServer'], (hostCtx: any) => {
     const webServer = hostCtx.webServer;
     console.log('[墨韵主题] webServer 注入完成:', !!webServer);
 
@@ -32,4 +37,4 @@ export function apply(ctx: any, config?: any) {
   });
 }
 
-export default { name, apply };
+export default { name, apply, getHostInfo };

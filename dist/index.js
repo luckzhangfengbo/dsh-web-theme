@@ -1,6 +1,10 @@
 import * as host from './host/index.js';
 export const name = 'dsh-web-theme';
-export function apply(ctx, config) {
+export const inject = ['webServer'];
+export function getHostInfo() {
+    return host.getHostInfo();
+}
+export function apply(ctx) {
     console.log('[墨韵主题] 宿主端已激活');
     const resolved = {
         activeTheme: '01',
@@ -10,7 +14,7 @@ export function apply(ctx, config) {
         enableParticles: true,
         autoActivate: true,
     };
-    ctx.inject(['webServer', 'loader'], (hostCtx) => {
+    ctx.inject(['webServer'], (hostCtx) => {
         const webServer = hostCtx.webServer;
         console.log('[墨韵主题] webServer 注入完成:', !!webServer);
         if (webServer) {
@@ -26,4 +30,4 @@ export function apply(ctx, config) {
         }
     });
 }
-export default { name, apply };
+export default { name, apply, getHostInfo };

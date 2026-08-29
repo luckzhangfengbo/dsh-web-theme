@@ -30,9 +30,18 @@ export declare function getHostInfo(): {
     type: string;
     author: string;
     description: string;
+    features: string[];
+    keywords: string[];
+    homepage: string;
+    repository: string;
+    bugs: string;
+    screenshots: string[];
     themes: {
         id: string;
         name: string;
         description: string;
+        color: string;
+        accent: string;
+        icon: string;
     }[];
 };
