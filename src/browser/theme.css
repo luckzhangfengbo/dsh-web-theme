@@ -1,0 +1,45 @@
+html[data-dsh-skin="moyun"] {
+  --moyun-bg-primary: #0a0e18;
+  --moyun-accent: #c8b89a;
+  --moyun-text: #f5e6c8;
+  --moyun-text-muted: #8a9bb5;
+  --moyun-border: rgba(200,184,154,0.2);
+  --moyun-glass: rgba(15,20,35,0.75);
+}
+
+html[data-dsh-skin="moyun"],
+html[data-dsh-skin="moyun"] body {
+  background-color: #0a0e18;
+  color: #f5e6c8;
+}
+
+html[data-dsh-skin="moyun"] body {
+  background-attachment: fixed;
+}
+
+html[data-dsh-skin="moyun"] body * {
+  color-scheme: dark;
+}
+
+html[data-dsh-skin="moyun"] ::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+html[data-dsh-skin="moyun"] ::-webkit-scrollbar-track {
+  background: rgba(15, 20, 35, 0.5);
+}
+
+html[data-dsh-skin="moyun"] ::-webkit-scrollbar-thumb {
+  background: rgba(200, 184, 154, 0.3);
+  border-radius: 3px;
+}
+
+html[data-dsh-skin="moyun"] ::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 212, 170, 0.5);
+}
+
+html[data-dsh-skin="moyun"] ::selection {
+  background: rgba(0, 212, 170, 0.4);
+  color: #f0d890;
+}
