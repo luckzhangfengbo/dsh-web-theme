@@ -52,4 +52,4 @@ dsh plugin --profile web add dsh-web-theme && dsh web
 
 ## 👤 Автор
 
-**橙虚得猿** · [GitHub](https://github.com/RevolutionLA/dsh-web-theme)
+**橙虚得猿** · [GitHub](https://github.com/luckzhangfengbo/dsh-web-theme)

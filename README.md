@@ -100,7 +100,7 @@
 
 **复制下面这句话给你的 DSH，它自己会装好一切：**
 
-> 请帮我安装 dsh-web-theme 墨韵水墨主题插件（https://github.com/RevolutionLA/dsh-web-theme 或 npm 的 dsh-web-theme），装完告诉我如何重启 DSH Web。
+> 请帮我安装 dsh-web-theme 墨韵水墨主题插件（https://github.com/luckzhangfengbo/dsh-web-theme 或 npm 的 dsh-web-theme），装完告诉我如何重启 DSH Web。
 
 不想麻烦 Agent？命令行一条：
 
@@ -110,7 +110,7 @@ dsh plugin --profile web add dsh-web-theme && dsh web
 
 > 🚀 **现已发布到 npm！** 装好 DSH 后，一条命令即可安装，无需 clone。
 >
-> **致敬 `https://github.com/RevolutionLA/dsh-dream-skin` 。** 借鉴其插件架构与设计理念，但专注于中国水墨画风格与东方美学。
+> **致敬 `https://github.com/luckzhangfengbo/dsh-dream-skin` 。** 借鉴其插件架构与设计理念，但专注于中国水墨画风格与东方美学。
 
 ---
 
@@ -193,13 +193,13 @@ dsh plugin --profile web add dsh-web-theme
 ### 方式二：从 GitHub 安装
 
 ```sh
-dsh plugin --profile web add 'github:RevolutionLA/dsh-web-theme'
+dsh plugin --profile web add 'github:luckzhangfengbo/dsh-web-theme'
 ```
 
 ### 方式三：克隆后从本地路径安装（开发迭代）
 
 ```sh
-git clone https://github.com/RevolutionLA/dsh-web-theme.git
+git clone https://github.com/luckzhangfengbo/dsh-web-theme.git
 cd dsh-web-theme
 dsh plugin --profile web add .
 ```
@@ -343,7 +343,7 @@ bundle（`@deepseek-ai/dsh-client-runtime/client`、…）。
 
 - 架构与 API 参考：DeepSeek Harness 官方
   `https://github.com/deepseek-ai/deepseek-harness/tree/master/packages/client/ui-theme` 客户端包。
-- 设计理念与插件架构参考：`https://github.com/RevolutionLA/dsh-dream-skin` 。
+- 设计理念与插件架构参考：`https://github.com/luckzhangfengbo/dsh-dream-skin` 。
 - 主题意境灵感：中国传统水墨画（宋画、元画意境）。
 
 ## 📈 成长曲线
