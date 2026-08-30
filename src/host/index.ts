@@ -228,9 +228,9 @@ export function getHostInfo() {
       '纯原生 token 系统，不修改 DSH 安装包',
     ],
     keywords: ['dsh-plugin', 'dsh-theme', '水墨', '中国风', 'ink-painting', 'chinese', 'i18n', 'multi-language'],
-    homepage: 'https://github.com/RevolutionLA/dsh-web-theme',
-    repository: 'https://github.com/RevolutionLA/dsh-web-theme',
-    bugs: 'https://github.com/RevolutionLA/dsh-web-theme/issues',
+    homepage: 'https://github.com/luckzhangfengbo/dsh-web-theme',
+    repository: 'https://github.com/luckzhangfengbo/dsh-web-theme',
+    bugs: 'https://github.com/luckzhangfengbo/dsh-web-theme/issues',
     screenshots: [
       '/api/dsh-web-theme/themes/01.png',
       '/api/dsh-web-theme/themes/02.png',

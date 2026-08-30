@@ -91,7 +91,7 @@ dsh plugin --profile web remove dsh-web-theme
 
 ## 🙏 Credits
 
-- Architecture reference: [dsh-dream-skin](https://github.com/RevolutionLA/dsh-dream-skin)
+- Architecture reference: [dsh-dream-skin](https://github.com/luckzhangfengbo/dsh-dream-skin)
 
 ## 📄 License
 
@@ -99,4 +99,4 @@ dsh plugin --profile web remove dsh-web-theme
 
 ## 👤 Author
 
-**橙虚得猿** · [GitHub](https://github.com/RevolutionLA/dsh-web-theme)
+**橙虚得猿** · [GitHub](https://github.com/luckzhangfengbo/dsh-web-theme)
